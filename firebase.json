@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "angular-fantasy-hockey",
+      "public": "dist/angular-fantasy-hockey",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

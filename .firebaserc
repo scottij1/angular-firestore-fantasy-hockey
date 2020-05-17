@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fantasy-hockey-app": {
+      "hosting": {
+        "angular-fantasy-hockey": [
+          "fantasy-hockey-app"
+        ]
+      }
+    }
+  }
+}
